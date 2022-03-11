@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/hello": {
+      "name": "/hello",
+      "lambdaFunction": "hookshello",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/hello-secrets": {
+      "name": "/hello-secrets",
+      "lambdaFunction": "hookshellosecrets",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

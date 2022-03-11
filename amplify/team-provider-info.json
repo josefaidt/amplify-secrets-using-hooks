@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hooks-dev-74753-authRole",
+      "UnauthRoleArn": "arn:aws:iam::814763596509:role/amplify-hooks-dev-74753-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::814763596509:role/amplify-hooks-dev-74753-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-hooks-dev-74753-deployment",
+      "UnauthRoleName": "amplify-hooks-dev-74753-unauthRole",
+      "StackName": "amplify-hooks-dev-74753",
+      "StackId": "arn:aws:cloudformation:us-east-1:814763596509:stack/amplify-hooks-dev-74753/b130d550-a078-11ec-9d09-124b5143c30b",
+      "AmplifyAppId": "d1k5oicsufmbrg"
+    },
+    "categories": {
+      "function": {
+        "hookshello": {
+          "name": "World",
+          "deploymentBucketName": "amplify-hooks-dev-74753-deployment",
+          "s3Key": "amplify-builds/hookshello-2f4e6841647948332b64-build.zip"
+        },
+        "hookshellosecrets": {
+          "secretsPathAmplifyAppId": "d1k5oicsufmbrg",
+          "deploymentBucketName": "amplify-hooks-dev-74753-deployment",
+          "s3Key": "amplify-builds/hookshellosecrets-74504c6b6370626f6b2b-build.zip"
+        }
+      }
+    }
+  }
+}
